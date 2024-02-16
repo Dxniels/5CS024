@@ -32,3 +32,32 @@ body {
     transition: 500ms;
 }
 
+.search {
+    
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    top: 0;
+    width: 100%;
+}
+
+.search input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.search button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
