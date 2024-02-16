@@ -6,7 +6,7 @@ body {
     padding: 0px;
     font-family: 'Poppins', sans-serif;
 }
-.task-bar ul {
+.navigation ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -15,10 +15,10 @@ body {
     top: 0;
     width: 100%;
 }
-.task-bar ul li  {
+.navigation ul li  {
     float: left;
 }
-.task-bar ul li a {
+.navigation ul li a {
     display: block;
     color: white;
     text-align: center;
@@ -27,7 +27,8 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.task-bar ul li a:hover {
+.navigation ul li a:hover {
     background-color: #111;
+    transition: 500ms;
 }
 
