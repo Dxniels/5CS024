@@ -6,6 +6,7 @@ body {
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+
 .navigation ul {
     list-style-type: none;
     margin: 0;
@@ -15,14 +16,16 @@ body {
     top: 0;
     width: 100%;
 }
+
 .navigation ul li  {
     float: left;
 }
+
 .navigation ul li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px 15px;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
 }
@@ -48,14 +51,15 @@ body {
 }
 
 .navigation .search input[type=text] {
-    padding: 6px;
-    margin-top: 8px;
-    font-size: 17px;
+    padding: 2px;
+    margin: 0;
+    overflow: hidden;
+    font-size: 15px;
     border: none;
     font-family: 'Poppins', sans-serif;
 }
 
 .navigation .search input[type=text]::placeholder {
-    color: white;
+    color: black;
     font-family: 'Poppins', sans-serif;
 }
