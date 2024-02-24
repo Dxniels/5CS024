@@ -9,10 +9,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all 0.5s;
+    transition: all 20s;
 }
 
 .spinner-border {
     height: 60px;
     width: 60px;
 }
+
+/* Login */
+
