@@ -67,12 +67,8 @@
 
     <div class="container">
       <div class="row">
-        <div class="col">
-          <h1 class="text-center">Donate</h1>
-          <p class="text-center">We appreciate your support!</p>
-          <p class="text-center">Please consider donating to our cause.</p>
-          <p class="text-center">Every little bit helps.</p>
-          <p class="text-center">Thank you!</p>
+        <div class="col-lg-12">
+          <h1 class="display-4 text-center my-5">Donate</h1>
         </div>
       </div>
       
@@ -97,7 +93,21 @@
         <small class="text-white-50">© 2024 T.E.H. All rights reserved.</small>
       </div>
     </footer>
+
+
+    <!-- Stripe Buy Button -->
+
+
+    <div style="text-align: center;">
+      <script async
+      src="https://js.stripe.com/v3/buy-button.js">
+    </script>
     
+    <stripe-buy-button
+      buy-button-id="buy_btn_1OnqYoLATnFwcnsdTcOFgy9d"
+      publishable-key="pk_test_51OnqPqLATnFwcnsdbM7ZAMnQe3Xuu4jbtYpSWhXMlizeq44AEamRYlncgc93qcZ1DlsZth4zMC56WwNW7Fdfnk1t00WB7rd06O">
+    </stripe-buy-button>
+    </div>
 
 
 
