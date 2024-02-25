@@ -63,6 +63,37 @@
       </div>
     </nav>
 
+    <!-- Contact -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1 class="text-center">Contact Us</h1>
+          <p class="text-center">We are here to help you</p>
+          <form class="row g-3" method="post" action="contact.php" role="form"> 
+            <div class="col-md-6">
+              <label for="firstName" class="form-label">First Name</label>
+              <input type="text" class="form-control" id="firstName" required>
+            </div>
+            <div class="col-md-6">
+              <label for="lastName" class="form-label">Last Name</label>
+              <input type="text" class="form-control" id="lastName" required>
+            </div>
+            <div class="col-md-6">
+              <label for="emailInfo" class="form-label">E-mail</label>
+              <input type="email" class="form-control" id="emailInfo" required>
+            </div>
+            <div class="col-md-6">
+              <label for="phoneInfo" class="form-label">Phone</label>
+              <input type="tel" class="form-control" id="phoneInfo" placeholder="+44"  required>
+            </div>
+            <div class="col-12">
+              <label for="messageInfo" class="form-label">Comments, Questions?</label>
+              <textarea class="form-control" id="messageInfo" rows="3" required></textarea>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Send</button>
+          </form>
 
 
     <!-- End Example Code -->
