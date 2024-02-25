@@ -17,5 +17,11 @@
     width: 60px;
 }
 
-/* Login */
+/* Toaster */
+
+.toast {
+    bottom: 15px;
+    right: 15px;
+    z-index: 9998;
+}
 
