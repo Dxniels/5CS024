@@ -1,4 +1,47 @@
 
+/* Global */
+/* Team */
+
+.team {
+    margin: 75px 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card {
+    height: 350px;
+    width: 420px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.card img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body h3 {
+    margin-bottom: 10px;
+}
+
+.card-body p {
+    text-align: center;
+}
+
 /* Loader */
 
 .spinner-wrapper {
@@ -33,13 +76,17 @@
 /* Footer */
 
 .footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: #343a40;
-    padding: 15px 0; 
+    background-color: #333;
     color: #fff;
     text-align: center;
-    font-size: 1em; 
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
 }
+
+.content { 
+    height: 2000px;
+}
+  
