@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = $_POST['messageInfo'];
 
     // Create the email content
-    $to = "example@whatever.com"; 
+    $to = ""; // Add the business email address that will be used. 
     $subject = "Contact Form Submission";
     $body = "First Name: $firstName\n" .
             "Last Name: $lastName\n" .
