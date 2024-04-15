@@ -1,4 +1,15 @@
 <?php
+$servername = "localhost";
+$username = "username";
+$password = "password";
+
+$conn = new mysqli($servername, $username, $password);
+
+if($conn->connect_error) {
+  die("Connection Failed: " . $conn->connect_error);
+}
+echo "Connected Successfully"
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $firstName = $_POST['firstName'];
     $lastName = $_POST['lastName'];
